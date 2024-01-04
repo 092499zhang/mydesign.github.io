@@ -1,0 +1,124 @@
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+}
+
+h1 {
+  font-family: Merriweather;
+  font-size: 38px;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: roboto;
+  font-weight: 700;
+  font-size: 30px;
+}
+h3 {
+  font-family: poppins;
+  font-weight: 900;
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+p {
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+ul
+ {
+/* text-align: center; */
+display: table;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 20px auto;
+  border: 2px solid grey;
+}
+
+.colors {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.cool-color {
+  margin: 20px 20px;
+  width: 300px;
+  height: 100px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.pink {
+  background-color: pink;
+
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.fonts-one {
+  font-family: 'Roboto', sans-serif;
+}
+
+.one-thin {
+  font-weight: 300;
+}
+
+.one-normal {
+  font-weight: normal;
+}
+
+.one-bold {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.fonts-two {
+  font-family: 'Poppins', sans-serif;
+}
+
+.two-thin {
+  font-weight: 200;
+}
+
+.two-normal {
+  font-weight: 400;
+}
+
+.two-bold {
+  font-weight: 600;
+}
+
+.fonts-three {
+  font-family: 'Merriweather', serif;
+}
+
+.three-thin {
+  font-weight: 300;
+}
+
+.three-normal {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.three-bold {
+  font-weight: 900;
+}
